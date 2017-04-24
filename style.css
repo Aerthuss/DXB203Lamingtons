@@ -1,0 +1,206 @@
+body {
+    padding: 5%;
+}
+
+nav a, nav a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+main .linkButton h3 {
+    border-color: #4F4F4F;
+    padding: 2px;
+    text-decoration: none;
+}
+
+form {
+    font-family: 'Nunito', sans-serif;
+}
+
+label:hover {
+    cursor: pointer;
+}
+
+section {
+    width: 60%;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+}
+
+.active {
+    background-color: #C7C7C7;
+}
+
+.navA {
+    border-style: solid;
+    border-width: 2px;
+    border-color: lightgrey;
+    display: -webkit-flex;
+    -webkit-align-items: flex-start;
+    display: flex;
+    align-items: flex-start;
+}
+
+.navA a {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    width: 150px;
+    font-size: 18px;
+    padding: 3px;
+}
+
+.navA #feedback {
+    margin-left: auto;
+}
+
+.navA a:hover {
+    background-color: #E3E3E3;
+}
+
+.linkButton {
+    text-decoration: none;
+}
+
+.linkButton h3 {
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    text-decoration: none;
+}
+
+.mainImg {
+    height: 35%;
+    float: left;
+}
+
+#recipeMain {
+    width: 90%;
+    margin: 0 auto;
+}
+.sNotes {
+    display: -webkit-flex;
+    -webkit-align-items: flex-start;
+    display: flex;
+    align-items: flex-start;
+    width:  100%;
+    padding: 2px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+    padding: 0px 10px;
+}
+
+
+.sNotes ul {
+    font-family: 'Nunito', sans-serif;
+    list-style-type: none;
+}
+.spongeFlex {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.icingFlex {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.left {
+    width: 25%;
+    margin-right: 10px;
+    border-right: solid;
+    border-width: 2px;
+    border-color: lightgrey;
+}
+
+.left img {
+    height: 30%;
+    width: 80%;
+}
+
+.feedMain {
+    margin: 0 auto;
+}
+
+.Lamo, .ozmax25, .anon {
+    width: 50%;
+    border-style: solid;
+    border-color: lightgray;
+    padding: 5px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.Lamo p, .ozmax25 p, .anon p {
+    line-height: 1;
+}
+
+.lightP {
+    font-size: 12px;
+    color: #8C8C8C;
+    float: right;
+}
+.check {
+    font-size: 12px;
+    text-align: center;
+    color: red;
+    line-height: 1;
+}
+
+.sFlex {
+    display: -webkit-flex;
+    -webkit-align-items: flex-start;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+#homeMain {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#logo {
+    font-size: 50px;
+}
+
+#mainImg {
+    float: right;
+    margin: 10px; 
+}
+
+#recipeMain {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.commentBox {
+    margin: 0 auto;
+    width: 51.5%;
+}
+
+.fItem {
+    padding: 5px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.formFlex {
+    display: flex;
+    -webkit-display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.thankMain {
+    text-align: center;
+}
+

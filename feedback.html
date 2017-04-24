@@ -1,0 +1,83 @@
+<DOCTYPE HTML>
+<HTML>
+    <head>
+        <title> Lamingtons </title>
+        
+        <link rel ="stylesheet" href ="style.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Nunito|Raleway|" rel="stylesheet">
+    </head>
+
+<body>
+    
+    <nav>
+        
+        <p id ="logo"><a href ="index.html"> Lamingtons </a></p>
+        <br>
+        
+        <div class ="navA">
+            <a href="index.html"> Home </a>
+            <a href="recipe.html"> Recipe </a>
+            <a href="feedback.html" class ="active" id ="feedback"> Feedback </a>
+        </div>
+        
+    </nav>
+    
+    <br> 
+    <main class = "feedMain">
+        
+        <section class ="commentBox">
+            
+            <form class ="formFlex" action="thankyou.html">
+                <label> Name: </label> <input type="text" name="name" id="name" value="" placeholder="Enter your name or nickname" class ="fItem">
+                <label> Rating: </label> <input type="text" name="name" id="name" value="" placeholder="Rate the recipe out of 5" class ="fItem">
+                <label> Feedback: </label> <textarea rows="10" name="comment" id="comment" placeholder="Leave feedback on the recipe" class ="fItem"></textarea>
+                <input type="submit" name="submit" value="Add Comment" class ="fItem" action="thankyou.html">
+            </form>
+            
+        </section>
+        
+        <div class = "sFlex">
+            <section class ="Lamo"> 
+
+                <h4> Lamo </h4>
+                <hr>
+
+                <p> Rating: 4/5 </p>
+                <p> This was soooo tasty. I was
+    afraid that it wasn't going to work, but when it came out of the oven
+                    it looked perfect! Can't wait to try it again. </p>
+                <p class ="lightP"> Posted 25/02/2014 </p>
+
+            </section>
+
+            <section class ="ozmax25">
+
+                <h4> ozmax25 </h4>
+                <hr>
+
+                <p> Rating: 5/5 </p>
+                <p> A true classic. Love to
+                    serve these on Australia day :P </p>
+                <p class ="lightP"> Posted 26/01/2014 </p>
+
+            </section>
+
+            <section class ="anon">
+
+                <h4> anonymous </h4>
+                <hr>
+
+                <p> Rating: 2/5 </p>
+                <p> So
+    frustrating. I tried the sponge cake recipe, but it came out flat as a
+                    pancake! Next time, I think I'll stick to packet mix. </p>
+                <p class ="lightP"> Posted 01/12/2013 </p>
+
+            </section>
+            
+        </div>
+        
+    </main>
+
+</body>
+</HTML>
